@@ -12,5 +12,7 @@ class Profile extends Eloquent {
     public function agence(){
         $this->hasMany('Agence');
     }
-
+    public function user(){
+        $this->belongsTo('User');
+    }
 }
