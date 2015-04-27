@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2c3c88d-cef3-4c4b-a559-7e397d7cd5a9" name="Default" comment="test">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Profile.php" afterPath="$PROJECT_DIR$/app/models/Profile.php" />
-    </list>
+    <list default="true" id="e2c3c88d-cef3-4c4b-a559-7e397d7cd5a9" name="Default" comment="test" />
     <ignored path="laravel-demo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -41,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/app/models/User.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="527">
-              <caret line="16" column="31" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="31" />
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -57,20 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Project.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Project.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/Project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="476">
+            <state vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
               <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Profile.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Profile.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45617172" vertical-offset="0" max-vertical-offset="559">
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="391">
               <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding />
             </state>
@@ -898,26 +896,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="391">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="527">
-          <caret line="16" column="31" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="31" />
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Project.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="476">
+        <state vertical-scroll-proportion="0.3041145" vertical-offset="0" max-vertical-offset="559">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45617172" vertical-offset="0" max-vertical-offset="559">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding />
         </state>
       </provider>
