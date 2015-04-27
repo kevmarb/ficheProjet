@@ -20,9 +20,11 @@ Route::post('registerAdmin', 'AuthController@postSignupAdmin');
 Route::get('register','AuthController@getSignupStudent');
 Route::post('register', 'AuthController@postSignupStudent');
 
+
 Route::get('registeragency','AuthController@getSignupAgency');
 Route::post('registeragency', 'AuthController@postSignupAgency');
 
+// Permet de ce logger en tands qu'admin, chef d'agence ou étudiant
 Route::post('auth/login', 'AuthController@postLogin');
 
 Route::post('create/project', 'ProjectController@postCreate');
