@@ -7,7 +7,7 @@ class Profile extends Eloquent {
      *
      * @var string
      */
-    protected $table = 'profile';
+    protected $table = 'profiles';
 
     public function agence(){
         $this->hasMany('Agence');

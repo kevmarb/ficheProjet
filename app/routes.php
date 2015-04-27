@@ -20,7 +20,6 @@ Route::post('registerAdmin', 'AuthController@postSignupAdmin');
 Route::get('register','AuthController@getSignupStudent');
 Route::post('register', 'AuthController@postSignupStudent');
 
-
 Route::get('registeragency','AuthController@getSignupAgency');
 Route::post('registeragency', 'AuthController@postSignupAgency');
 

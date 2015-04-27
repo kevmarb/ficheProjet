@@ -5,7 +5,7 @@
     <div class="well">
         <h3>Sign Up</h3>
         <hr>
-        {{Form::open(array('url' => 'registerAgence'))}}
+        {{Form::open(array('url' => 'registeragency'))}}
         <div class="form-group">
             {{Form::label('firstname', 'Firstname')}}
             {{Form::text('firstname', Input::old('firstname'),  array('placeholder'=>'Enter firstname', 'class' => 'form-control'))}}

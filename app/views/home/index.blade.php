@@ -126,10 +126,11 @@
             {{Form::submit('Log In!', array('class' => 'btn btn-success btn-lg btn-block'))}}
             {{Form::close()}}
         </div>
-    @else
+    {{--@if( admin == true)
 
+    @if(agence =true)--}}
+    @else
         Hello {{{Auth::user()->username}}}
         <a href="{{URL::to('logout')}}" class="btn btn-primary"> Log Out</a>
-
     @endif
 @stop

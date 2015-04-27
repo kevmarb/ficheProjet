@@ -77,10 +77,15 @@ class AuthController extends BaseController {
             $user = new User;
             $user->firstname = Input::get('firstname');
             $user->lastname = Input::get('lastname');
-            $user->name = Input::get('name');
             $user->password = Hash::make(Input::get('password'));
             $user->email = Input::get('email');
+            $agence = new Agence;
+            $agence->name = Input::get('name');
             $user->save();
+            $agence->user_id = $user->getAuthIdentifier();
+            $agence->save();
+            $user->agence_id = $agence->getId();
+            var_dump($user);
             return Redirect::to('/');
 
         }

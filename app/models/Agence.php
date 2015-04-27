@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Steeve Jerent
- * Date: 27/04/2015
- * Time: 17:50
- */
 
 class Agence extends Eloquent{
     /**
@@ -12,9 +6,13 @@ class Agence extends Eloquent{
      *
      * @var string
      */
-    protected $table = 'profile';
+    protected $table = 'agences';
 
     public function user(){
         $this->hasMany('User');
+    }
+
+    public function getId(){
+        $this->id;
     }
 }

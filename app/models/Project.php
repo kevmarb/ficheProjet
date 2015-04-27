@@ -8,7 +8,7 @@ class Project extends Eloquent {
      *
      * @var string
      */
-    protected $table = 'projetsroles';
+    protected $table = 'projects';
 
     public function users(){
         $this->hasMany('User');
